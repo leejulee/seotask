@@ -1,0 +1,25 @@
+{
+  "name": "seotask",
+  "version": "1.0.0",
+  "description": "seo task",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leejulee/seotask.git"
+  },
+  "keywords": [
+    "seo"
+  ],
+  "author": "leo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leejulee/seotask/issues"
+  },
+  "homepage": "https://github.com/leejulee/seotask#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2"
+  }
+}
