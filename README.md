@@ -1,11 +1,21 @@
 # seotask
 
 - use 
+    - download node_modules
+    ```
+    npm install
+    ```
 
-``` js
-var seotask = require('seotask')
-var { seorule, seoHelper } = seotask 
-```
+    - install local module to node folder
+    ``` node
+    npm --save install ../seotask
+    ```
+
+    - use seotask
+    ``` js
+    var seotask = require('seotask')
+    var { seorule, seoHelper } = seotask 
+    ```
 
 - example
     - init 
