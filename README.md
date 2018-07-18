@@ -20,7 +20,9 @@ var { seorule, seoHelper } = seotask
     - add rule (./lib/seorule.js)
     ``` js
     var cs = new seorule({
-        id: "meta_robots", tagname: "meta", errormsg: "This html without <mata> robots tag", attr: "name", selectorname: "robots"
+        id: "meta_robots", tagname: "meta", 
+        errormsg: "This html without <mata> robots tag", 
+        attr: "name", selectorname: "robots"
     })    
 
     shelper.addRules(cs)
